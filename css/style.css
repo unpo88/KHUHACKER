@@ -1,0 +1,16 @@
+.carousel-item>img{
+    width:100vw;
+    height:93vh;
+    -webkit-filter: grayscale(100%);
+    filter: gray;
+}
+
+#temp, #temp2{
+    height: 100vh;
+    text-align: center;
+    padding-top: 45vh;
+}
+#temp{
+    color:white;
+    background-color:black;
+}
