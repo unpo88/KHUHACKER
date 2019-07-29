@@ -12,3 +12,4 @@
 ## 정보
 
 최원섭 – whatsup@khu.ac.kr
+이규호 - 
