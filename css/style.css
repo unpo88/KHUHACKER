@@ -5,12 +5,42 @@
     filter: gray;
 }
 
-#temp, #temp2{
+.page-section{
+    font-style: italic;
+    margin: 0;
+    width: 100vw;
     height: 100vh;
-    text-align: center;
-    padding-top: 45vh;
 }
-#temp{
-    color:white;
-    background-color:black;
+
+.img-full{
+    width: 100%;
+    height: 100%;
+}
+
+.left-box, .right-box{
+    width: 50%;
+    font-size: 50px;
+    text-align: center;
+    padding: 5% 5% 5% 5%;
+}
+.left-box{
+    float: left;
+}
+.right-box{
+    float: right;
+}
+
+.main-text{
+}
+
+.main-heading{
+
+}
+
+.main-body{
+    font-size: 20px;
+}
+
+.main-secondary{
+    background-color: ghostwhite;
 }
