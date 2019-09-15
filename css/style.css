@@ -1,10 +1,11 @@
 /* Add about.html css */
-p{
+#font-style{
     color: #444;
     letter-spacing: -0.02em;
     font-family: 'Noto Sans','Apple SD Gothic Neo','맑은 고딕','Malgun Gothic','돋움',dotum,sans-serif;
     line-height: 26px;
 }
+
 
 .ico_techv {
     display: inline-block;
