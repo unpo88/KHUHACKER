@@ -147,3 +147,8 @@ blockquote {
 .area_tag a:before {
     content: '#';
 }
+
+footer {
+    background: black;
+    color: #fff
+}
