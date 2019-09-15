@@ -157,3 +157,15 @@ footer {
     background: black;
     color: #fff
 }
+
+.footer_link{
+    color: #fff;
+}
+
+.footer_link:hover{
+    color: #289983;
+}
+
+a:hover{
+    text-decoration: none;
+}
