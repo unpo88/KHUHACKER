@@ -1,3 +1,55 @@
+/* Add about.html css */
+p{
+    color: #444;
+    letter-spacing: -0.02em;
+    font-family: 'Noto Sans','Apple SD Gothic Neo','맑은 고딕','Malgun Gothic','돋움',dotum,sans-serif;
+    line-height: 26px;
+}
+
+.ico_techv {
+    display: inline-block;
+    background: url(/images/icon/iconv.png);
+    background-size: 46px 54px;
+    width: 46px;
+    height: 54px;
+    margin-right: 14px;
+}
+
+.ico_techa {
+    display: inline-block;
+    background: url(/images/icon/icona.png);
+    background-size: 46px 54px;
+    width: 46px;
+    height: 54px;
+    margin-right: 14px;
+}
+
+.ico_techm {
+    display: inline-block;
+    background: url(/images/icon/iconm.png);
+    background-size: 46px 54px;
+    width: 46px;
+    height: 54px;
+    margin-right: 14px;
+}
+.tit_value {
+    display: flex;
+    height: 80px;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 54px;
+    color: #111;
+    letter-spacing: -0.014em;
+    padding-bottom: 21px;
+}
+
+.box-pad{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+/* Add about.html css */
+
 .carousel-item {
     height: 100vh;
     min-height: 300px;
@@ -129,13 +181,28 @@ blockquote {
     color: #2d50ff;
 }
 
+.area_tag a:hover {
+    background-color: #cce6ff;
+    color: #2d50ff;
+}
+
 .area_tag .tag_support {
     color: #e535ab;
     background: #fdeff9;
 }
 
+.area_tag .tag_support:hover {
+    color: #e535ab;
+    background: #ffcccc;
+}
+
 .area_tag .tag_vision {
     background-color: #f5efff;
+    color: #782ffe;
+}
+
+.area_tag .tag_vision:hover {
+    background-color: #e6ccff;
     color: #782ffe;
 }
 
