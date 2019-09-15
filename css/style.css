@@ -129,17 +129,22 @@ blockquote {
     color: #2d50ff;
 }
 
-.area_tag .tag_year {
+.area_tag .tag_support {
+    color: #e535ab;
+    background: #fdeff9;
+}
+
+.area_tag .tag_vision {
     background-color: #f5efff;
     color: #782ffe;
 }
 
-.area_tag .tag_top {
+.area_tag .tag_merit {
     background-color: #e7f6f9;
     color: #0faac8;
 }
 
-.area_tag .tag_top:hover {
+.area_tag .tag_merit:hover {
     background-color: #cfeef4;
     color: #0faac8;
 }
