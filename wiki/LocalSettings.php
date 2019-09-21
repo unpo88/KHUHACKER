@@ -43,8 +43,8 @@ $wgLogo = "$wgResourceBasePath/resources/assets/wiki.png";
 $wgEnableEmail = true;
 $wgEnableUserEmail = true; # UPO
 
-$wgEmergencyContact = "apache@localhost";
-$wgPasswordSender = "apache@localhost";
+$wgEmergencyContact = "hacker2019@gmail.com";
+$wgPasswordSender = "hacker2019@gmail.com";
 
 $wgEnotifUserTalk = false; # UPO
 $wgEnotifWatchlist = false; # UPO
@@ -115,18 +115,22 @@ $wgRightsIcon = "$wgResourceBasePath/resources/assets/licenses/cc-by-nc-sa.png";
 $wgDiff3 = "";
 
 # The following permissions were set based on your choice in the installer
-$wgGroupPermissions['*']['createaccount'] = false;
-$wgGroupPermissions['*']['edit'] = false;
+$wgGroupPermissions['*']['createaccount'] = true;
+$wgGroupPermissions['*']['edit'] = true;
+$wgGroupPermissions['*']['read'] = true;
+
 
 ## Default skin: you can change the default skin. Use the internal symbolic
 ## names, ie 'vector', 'monobook':
-$wgDefaultSkin = "vector";
+$wgDefaultSkin = "liberty";
+$wgLibertyMainColor = black;
 
 # Enabled skins.
 # The following skins were automatically enabled:
 wfLoadSkin( 'MonoBook' );
 wfLoadSkin( 'Timeless' );
 wfLoadSkin( 'Vector' );
+wfLoadSkin( 'Liberty' );
 
 
 # End of automatically generated settings.
