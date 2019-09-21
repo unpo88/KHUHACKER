@@ -123,7 +123,7 @@ $wgGroupPermissions['*']['read'] = true;
 ## Default skin: you can change the default skin. Use the internal symbolic
 ## names, ie 'vector', 'monobook':
 $wgDefaultSkin = "liberty";
-$wgLibertyMainColor = black;
+$wgLibertyMainColor = "black";
 
 # Enabled skins.
 # The following skins were automatically enabled:
