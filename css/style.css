@@ -453,3 +453,189 @@ footer {
 a:hover{
     text-decoration: none;
 }
+
+/*---------------------------
+-----------------------------  
+        history by dahee
+-----------------------------
+-----------------------------*/
+
+.single-timeline-box {margin-bottom: 75px;}
+
+.single-timeline-box .col-md-5 {
+    
+    left: 8%;
+
+}
+
+/*experience-time*/
+
+.experience-time h2 {
+    font-weight: 400;
+}
+.experience-time h3 {
+    font-size: 16px;
+    font-weight: 300;
+    color: #636a82;
+    margin-top: 14px;
+    text-transform: uppercase;
+}
+/*experience-time*/
+
+/*main-timeline*/
+.main-timeline{
+    position: relative;
+}
+.main-timeline:before{
+    content: "";
+    width: 2px;
+    height: 100%;
+    background: #b2c1ce;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: -1;
+
+}
+
+.circle-content{
+    color: #5e8cb4;
+    position: absolute;
+    left: 49.5%;
+    
+    z-index: 1;
+}
+
+
+.timeline-content span>i, .experience-time span>i {
+    color: #294f72;
+    position: absolute;
+    font-size: 10px;
+
+
+    z-index: 1;
+}
+.timeline-content h4.title {
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.timeline-content h5 {
+    color: #636a82;
+    font-size: 14px;
+    font-weight: 300;
+    margin: 18px 0 20px;
+}
+.main-timeline .description {
+    font-size: 14px;
+    color: #999fb3;
+}
+.main-timeline .timeline-content.right{
+    float: right;
+    text-align: left;
+}
+.text_right{
+    text-align: right;
+}
+
+.experience-time-responsive{display: none;}
+
+/*media query*/
+
+@media (max-width:991px){
+    .experience-time-responsive{
+        display: block;
+        text-align: left;
+    }
+	.experience-time-main{display: none;}
+    .experience-time,.timeline-content,.text_right{
+        text-align: left;
+    }
+    
+	.circle-content{
+        left:0.1%;
+    }
+	.main-timeline:before {left:0.9%;}
+
+	.single-horizontal-timeline .experience-time,.single-horizontal-timeline .timeline-content {margin: 0;}
+}
+@media(max-width:767px){
+	.circle-content,.main-timeline:before {display: none;}
+	.experience-time, .timeline-content {margin-left: 0;}
+
+}
+
+/* history end*/
+
+
+/*----------------------
+------------------------        
+    modal login by dahee
+------------------------
+------------------------*/
+.modal-login {
+    width: 800px;
+}
+.modal-login .modal-content {
+    border-radius: 1px;
+    border: none;
+}
+.modal-login .modal-header {
+    position: relative;
+    justify-content: center;
+    background: #f2f2f2;
+}
+.modal-login .modal-body {
+    padding-top: 30px;
+}
+.modal-login .modal-footer {
+    background: #f2f2f2;
+}
+.modal-login h4 {
+    text-align: center;
+    font-size: 26px;
+}
+.modal-login label {
+    font-weight: normal;
+    font-size: 13px;
+}
+.modal-login .form-control, .modal-login .btn {
+    min-height: 38px;
+    border-radius: 2px; 
+}
+.modal-login .hint-text {
+    text-align: center;
+}
+.modal-login .close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+.modal-login .checkbox-inline {
+    margin-top: 12px;
+}
+.modal-login input[type="checkbox"]{
+    margin-top: 2px;
+}
+.modal-login .btn {
+    min-width: 100px;
+    background: #29c26e;
+    border: none;
+    line-height: normal;
+}
+.modal-login .btn:hover, .modal-login .btn:focus {
+    background: #29c26e;
+}
+.modal-login .hint-text a {
+    color: #999;
+}
+
+.signUpText{
+    margin-top: 4px;
+    font-size: 14px;
+    display: block;
+    text-align: center;
+}
+
+/*modal login end*/

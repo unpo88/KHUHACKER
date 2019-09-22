@@ -96,6 +96,51 @@
             </div>
         </header>
 
+
+<!-- Login Modal by dahee-->
+<div id="myModal" class="modal fade">
+    <div class="modal-dialog modal-login">
+        <div class="modal-content">
+            <form action="/examples/actions/confirmation.php" method="post">
+                <div class="modal-header">				
+                    <h4 class="modal-title">Login</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                </div>
+                <div class="modal-body">				
+                    <div class="form-group">
+                        <label>Username</label>
+                        <input type="text" class="form-control" required="required">
+                    </div>
+                    <div class="form-group">
+                        <div class="clearfix">
+                            <label>Password</label>
+
+                        </div>
+                        <input type="password" class="form-control" required="required">
+                    </div>
+                    
+                    <div class="signUpText"><!--sign up-->
+                        계정이 없으신가요? 지금 가입해보세요.
+                        <a href="#" class = "">가입하기</a>
+                    </div>
+                    <div class="signUpText"><!--sign up-->
+                        비밀번호를 잊으셨나요?
+                        <a href="#" class = "">비밀번호 찾기</a>
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <label class="checkbox-inline pull-left"><input type="checkbox"> Remember me</label>
+                    <input type="submit" class="btn btn-primary pull-right" value="Login">
+                </div>
+            </form>
+        </div>
+    </div>
+</div>     
+
+<!-- Login Modal End by dahee -->
+
+
         <!-- Main Layout -->
         <main class="mt-5">
             <section class="testimonials">
