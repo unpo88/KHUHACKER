@@ -52,18 +52,15 @@
 /* Add about.html css */
 
 /* Add activity */
-
 .masonry-list {
     padding: 40px;
     display: inline-block;
 }
 
 .li-style{
+    padding: 0;
     float: left;
-    height: 320px;
     overflow: hidden;
-    margin: 0 10px 10px 0;
-    width: 320px;
     box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
 }
 
@@ -215,11 +212,10 @@
 }
 
 .card-body {
-    position: absolute;
+    position: relative;
     background-color: #fff;
     border-radius: 0 0 1px 1px;
     padding: 0 26px 26px 26px;
-    width: 320px;
     height: 100px;
     transition: all .3s ease-in-out;
 }
@@ -237,7 +233,7 @@
     visibility: hidden;
     opacity: 0;
     line-height: 30px;
-    transition: all .2s ease-out;
+    transition: all .2s cubic-bezier(0.68, -0.55, 0.27, 1.55);
 }
 
 .card-body-header {
@@ -267,8 +263,11 @@
 
 /*activity css 끝*/
 
-.carousel-item {
+.carousel-full{
     height: 100vh;
+}
+
+.carousel-item {
     min-height: 300px;
     background: no-repeat center center scroll;
     -webkit-background-size: cover;
