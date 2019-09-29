@@ -52,15 +52,18 @@
 /* Add about.html css */
 
 /* Add activity */
+
 .masonry-list {
     padding: 40px;
     display: inline-block;
 }
 
 .li-style{
-    padding: 0;
     float: left;
+    height: 320px;
     overflow: hidden;
+    margin: 0 10px 10px 0;
+    width: 320px;
     box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
 }
 
@@ -212,10 +215,11 @@
 }
 
 .card-body {
-    position: relative;
+    position: absolute;
     background-color: #fff;
     border-radius: 0 0 1px 1px;
     padding: 0 26px 26px 26px;
+    width: 320px;
     height: 100px;
     transition: all .3s ease-in-out;
 }
@@ -233,7 +237,7 @@
     visibility: hidden;
     opacity: 0;
     line-height: 30px;
-    transition: all .2s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+    transition: all .2s ease-out;
 }
 
 .card-body-header {
@@ -263,11 +267,8 @@
 
 /*activity css 끝*/
 
-.carousel-full{
-    height: 100vh;
-}
-
 .carousel-item {
+    height: 100vh;
     min-height: 300px;
     background: no-repeat center center scroll;
     -webkit-background-size: cover;
@@ -459,6 +460,34 @@ a:hover{
 -----------------------------
 -----------------------------*/
 
+.historyBanner{
+    padding-top: 3vh;
+    height: 50vh;
+    width: 90vw;
+    display: block; 
+    margin: 0px auto; 
+}
+
+#magin {
+    padding:10px;
+    margin:10px;
+}
+
+.historyAwardsSelect {
+    text-align: center;
+    padding-bottom: 10vh;
+}
+
+.historyAwardsSelect a{
+    border-bottom: 2.5px solid #5b678d;
+    padding-right: 12vw;
+    padding-left: 12vw;
+    padding-bottom: 1vh;
+    font-size: 48px;
+    font-weight: 350;
+    color: rgb(117, 10, 10);
+}
+
 .single-timeline-box {margin-bottom: 75px;}
 
 .single-timeline-box .col-md-5 {
@@ -479,6 +508,11 @@ a:hover{
     margin-top: 14px;
     text-transform: uppercase;
 }
+.historyImage{
+    height:210px;
+    width:300px;
+}
+
 /*experience-time*/
 
 /*main-timeline*/
