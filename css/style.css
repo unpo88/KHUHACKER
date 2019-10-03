@@ -1,9 +1,13 @@
+@import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
+
 /* Add about.html css */
 #font-style{
     color: #444;
     letter-spacing: -0.02em;
-    font-family: 'Noto Sans','Apple SD Gothic Neo','맑은 고딕','Malgun Gothic','돋움',dotum,sans-serif;
-    line-height: 26px;
+    font-family: '맑은 고딕','Malgun Gothic', sans-serif;
+    line-height: 23px;
+    font-size: 14px;
+    word-break: keep-all;
 }
 
 
@@ -59,11 +63,9 @@
 }
 
 .li-style{
+    padding: 0;
     float: left;
-    height: 320px;
     overflow: hidden;
-    margin: 0 10px 10px 0;
-    width: 320px;
     box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
 }
 
@@ -107,7 +109,7 @@
 
 .tile-primary-content{
     overflow: hidden;
-    height: 220px;
+    height: 219px;
     width: 320px;
     transition: all .3s ease-in-out;
 }
@@ -118,7 +120,7 @@
 }
 
 .tile-act1:hover .card-body{
-    height: 240px;
+    height: 239px;
     transition: all .3s ease-in-out;
 }
 
@@ -135,7 +137,7 @@
 }
 
 .tile-act2:hover .card-body{
-    height: 240px;
+    height: 239px;
     transition: all .3s ease-in-out;
 }
 
@@ -152,7 +154,7 @@
 }
 
 .tile-act3:hover .card-body{
-    height: 240px;
+    height: 239px;
     transition: all .3s ease-in-out;
 }
 
@@ -169,7 +171,7 @@
 }
 
 .tile-act4:hover .card-body{
-    height: 240px;
+    height: 239px;
     transition: all .3s ease-in-out;
 }
 
@@ -186,7 +188,7 @@
 }
 
 .tile-act5:hover .card-body{
-    height: 240px;
+    height: 239px;
     transition: all .3s ease-in-out;
 }
 
@@ -203,7 +205,7 @@
 }
 
 .tile-act6:hover .card-body{
-    height: 240px;
+    height: 239px;
     transition: all .3s ease-in-out;
 }
 
@@ -215,11 +217,10 @@
 }
 
 .card-body {
-    position: absolute;
+    position: relative;
     background-color: #fff;
     border-radius: 0 0 1px 1px;
     padding: 0 26px 26px 26px;
-    width: 320px;
     height: 100px;
     transition: all .3s ease-in-out;
 }
@@ -237,7 +238,7 @@
     visibility: hidden;
     opacity: 0;
     line-height: 30px;
-    transition: all .2s ease-out;
+    transition: all .2s cubic-bezier(0.68, -0.55, 0.27, 1.55);
 }
 
 .card-body-header {
@@ -267,8 +268,136 @@
 
 /*activity css 끝*/
 
-.carousel-item {
+/*project css 시작*/
+.padtop{
+    padding-top: 35px;
+}
+
+.box {
+    width: 100%;
+    position: relative;
+}
+
+.box_study {
+    display: table;
+    width: 100%;
+    margin-bottom: 0;
+}
+
+.page_inside {
+    width: 900px;
+    padding: 50px 0;
+    position: relative;
+    margin: 0 auto;
+    display: table;
+}
+
+.box_left {
+    display: table;
+    width: 47%;
+    float: left;
+}
+
+.box_right {
+    display: table;
+    width: 47%;
+    float: right;
+}
+
+.box_right_service {
+    height: 350px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.box_left_service {
+    height: 350px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.box_right_web {
+    background-image: url(/images/project/webc.png);
+}
+
+.box_right_java {
+    background-image: url(/images/project/java.png);
+}
+
+.appbutton {
+    margin-right: 30px;
+    color: #38a3e5;
+    font-size: 18px;
+}
+
+.applogo {
+    float: left;
+    height: 120px;
+    width: 100px;
+    margin-top: 10px;
+    margin-right: 20px;
+    background-size: contain;
+    background-position: left;
+    background-repeat: no-repeat;
+    border-radius: 25%;
+    overflow: hidden;
+}
+
+.applogo_amanda {
+    background-image: url(/images/project/example.jpg);
+}
+
+.title2 {
+    font-family: 'NanumSquareRegular', sans-serif;
+    font-size: 24px;
+    color: #9b9b9b;
+}
+
+.title3 {
+    font-family: 'NanumSquareRegular', sans-serif;
+    font-size: 42px;
+    color: #04192b;
+}
+
+.text p {
+    font-family: 'NanumSquareRegular', sans-serif;
+    line-height: 1.65;
+    font-size: 14px
+}
+
+.project-content{
+    padding: 50px 5em;
+}
+
+.project-content figure{
+    padding: 1.5em 1.5em 2.5em;
+}
+
+.project_content img {
+    -webkit-border-radius: 1.5em;
+    -moz-border-radius: 1.5em;
+    border-radius: 1.5em;
+}
+
+.img-responsive {
+    max-width: 100%;
+    display: block;
+}
+
+.center-block {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+/*project css 끝*/
+
+.carousel-full{
     height: 100vh;
+}
+
+.carousel-item {
     min-height: 300px;
     background: no-repeat center center scroll;
     -webkit-background-size: cover;
