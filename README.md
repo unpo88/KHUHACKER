@@ -2,7 +2,14 @@
 > 2019년 KHUHACKER 홈페이지 리뉴얼 작업
 
 ## 개발 환경 설정
-
+###PHP (least 7.0.13)
+>Perl Compatible Regular Expressions (PCRE) (MediaWiki 1.23 requires PCRE 7.2+)
+>session
+>spl
+>openssl
+>json (since 1.22)
+>mbstring (required since 1.27, recommended for earlier versions)
+>fileinfo (required since 1.30)
 
 ## 업데이트 내역
 
