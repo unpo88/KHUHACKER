@@ -11,6 +11,10 @@
       * json (since 1.22)
       * mbstring (required since 1.27, recommended for earlier versions)
       * fileinfo (required since 1.30)
+   * DataBase (택 1)
+      * MySQL 5.5.8 or MariaDB 5.1+
+      * PostgreSQL 9.2+ (supported since MediaWiki 1.8)
+      * SQLite 3
 
 ## 업데이트 내역
 
