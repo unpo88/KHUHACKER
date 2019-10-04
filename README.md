@@ -2,7 +2,7 @@
 > 2019년 KHUHACKER 홈페이지 리뉴얼 작업
 
 ## 개발 환경 설정
-### WiKi
+### * WiKi
    * PHP (least 7.0.13)
       * Perl Compatible Regular Expressions (PCRE) (MediaWiki 1.23 requires PCRE 7.2+)
       * session
