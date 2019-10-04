@@ -4,16 +4,16 @@
 ## 개발 환경 설정
 ### * WiKi
    * PHP (least 7.0.13)
-      * Perl Compatible Regular Expressions (PCRE) (MediaWiki 1.23 requires PCRE 7.2+)
+      * Perl Compatible Regular Expressions (PCRE)
       * session
       * spl
       * openssl
-      * json (since 1.22)
-      * mbstring (required since 1.27, recommended for earlier versions)
-      * fileinfo (required since 1.30)
+      * json
+      * mbstring
+      * fileinfo
    * DataBase (택 1)
       * MySQL 5.5.8 or MariaDB 5.1+
-      * PostgreSQL 9.2+ (supported since MediaWiki 1.8)
+      * PostgreSQL 9.2+ 
       * SQLite 3
 
 ## 업데이트 내역
