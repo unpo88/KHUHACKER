@@ -270,7 +270,11 @@
 
 /*project css 시작*/
 .padtop{
-    padding-top: 35px;
+    padding-top: 70px;
+}
+
+.martop{
+    margin-top: 30px
 }
 
 .box {
@@ -286,7 +290,6 @@
 
 .page_inside {
     width: 900px;
-    padding: 50px 0;
     position: relative;
     margin: 0 auto;
     display: table;
@@ -391,6 +394,10 @@
     margin: 0 auto;
     max-width: 100%;
 }
+
+.make-full{
+    height: 100vh;
+}
 /*project css 끝*/
 
 .carousel-full{
@@ -454,7 +461,7 @@ nav.shrink>li>a {
 }
 
 .testimonials {
-    margin: 50px auto;
+    margin-top: 50px;
 }
 
 .testimonials h1 {
