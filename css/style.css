@@ -270,11 +270,19 @@
 
 /*project css 시작*/
 .padtop{
-    padding-top: 70px;
+    padding-top: 50px;
 }
 
 .martop{
     margin-top: 30px
+}
+
+.padbot{
+    padding-bottom: 80px;
+}
+
+.marg-end{
+    margin-bottom: 25%;
 }
 
 .box {
@@ -289,7 +297,7 @@
 }
 
 .page_inside {
-    width: 900px;
+    width: 1050px;
     position: relative;
     margin: 0 auto;
     display: table;
@@ -308,24 +316,26 @@
 }
 
 .box_right_service {
-    height: 350px;
+    height: 430px;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: left;
 }
 
 .box_left_service {
-    height: 350px;
+    height: 430px;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: left;
 }
 
 .box_right_web {
+    background-position: right;
     background-image: url(/images/project/webc.png);
 }
 
-.box_right_java {
+.box_left_java {
+    background-position: left;
     background-image: url(/images/project/java.png);
 }
 
@@ -395,9 +405,49 @@
     max-width: 100%;
 }
 
-.make-full{
-    height: 100vh;
+@media screen and (max-width: 991px){
+    .box_right_service {
+        background-position: center;
+        height: 300px;
+    }
+    
+    .box_right {
+        width: 100%;
+        height: 50vh;
+        margin-top: 0;
+        padding-bottom: 0;
+    }
+
+    .box_left_service {
+        background-position: center;
+        height: 300px;
+    }
+    
+    .box_left {
+        width: 100%;
+        height: 50vh;
+        margin-top: 0;
+        padding-bottom: 0;
+    }
+
+    .page_inside {
+        width: 100%;
+        position: relative;
+        margin: 0 auto;
+        display: table;
+    }
+
+    .box_right_web {
+        margin-top: 30px;
+        background-image: url(/images/project/webc.png);
+    }
+    
+    .box_left_java {
+        margin-top: 30px;
+        background-image: url(/images/project/java.png);
+    }
 }
+
 /*project css 끝*/
 
 .carousel-full{
