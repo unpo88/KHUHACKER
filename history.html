@@ -10,49 +10,12 @@
     <header>
         <div class="header"></div>
         <!-- Banner -->
-        <div class="bd-example">
-            <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-                    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-                    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-                </ol>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="/images/banner/6.jpg" class="d-block w-100" alt="First Slider">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>KHUHACKER</h5>
-                            <p>KyungHee University</p>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="/images/banner/6.jpg" class="d-block w-100" alt="Second Slider">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>KHUHACKER</h5>
-                            <p>KyungHee University</p>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="/images/banner/6.jpg" class="d-block w-100" alt="Thrid Slider">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>KHUHACKER</h5>
-                            <p>KyungHee University</p>
-                        </div>
-                    </div>
-                </div>
-                <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
-            </div>
-        </div>
+
     </header>
 
     <!-- Main Layout -->
+
+
     <div id="container">
         <!--experience start -->
         <img class="historyBanner" src="/images/banner/historyBanner.png" alt="historyBanner">
@@ -60,250 +23,931 @@
         <main class="mt-5">
             <section class="historyAwardsSelect">
                 <div class="container">
-                    <a>History</a><span id="margin"> </span><a>Awards</a>
+                    <a id="hisSelect" href="javascript:doHistoryDisplay();" onmouseover="mHistoryOver()"
+                        onmouseout="mHistoryOut()">History</a><span id="margin"> </span>
+                    <a id="awardsSelect" href="javascript:doAwardDisplay();" onmouseover="mAwardsOver()"
+                        onmouseout="mAwardsOut()">Awards</a>
                 </div>
             </section>
         </main>
     </div>
-    <div class="container">
-        <div class="experience-content">
-            <div class="main-timeline">
 
-                <div class="single-timeline-box fix">
-                    <div class="row">
-                        <div class="col-md-5">
-                            <div class="experience-time text_right">
-                                <h2>2018 - Present</h2>
-                                <h3>creative director</h3>
-                                <img class="historyImage" src="/images/banner/historySample.jpg"
-                                    alt="historySampleImage">
-                            </div>
-                            <!--/.experience-time-->
-                        </div>
-                        <!--/.col-->
-                        <span><i class="fa fa-circle circle-content" aria-hidden="true"></i></span>
-                        <div class="col-md-offset-1 col-md-5">
-                            <div class="timeline">
-                                <div class="timeline-content">
-                                    <h4 class="title">
+    <!-- history part start-->
+    <div id="historyContainer">
+        <div id="historyContainer_1">
+            <div class="container">
+                <div class="experience-content">
+                    <div class="main-timeline">
 
-                                        hoplony tech limited
-                                    </h4>
-                                    <h5>newyork, USA</h5>
-                                    <p class="description">
-                                        Duis aute irure dolor in reprehenderit in vol patate velit esse cillum dolore eu
-                                        fugiat nulla pari. Excepteur sint occana inna tecat cupidatat non proident.
-                                    </p>
+                        <div class="single-timeline-box fix">
+                            <div class="row">
+                                <div class="col-md-5">
+                                    <div class="experience-time text_right">
+                                        <h2>2018 - Present</h2>
+                                        <h3>creative director</h3>
+                                        <img class="historyImage" src="/images/banner/historySample.jpg"
+                                            alt="historySampleImage">
+                                    </div>
+                                    <!--/.experience-time-->
                                 </div>
-                                <!--/.timeline-content-->
-                            </div>
-                            <!--/.timeline-->
-                        </div>
-                        <!--/.col-->
-                    </div>
-                </div>
-                <!--/.single-timeline-box-->
+                                <!--/.col-->
+                                <span><i class="fa fa-circle circle-content"></i></span>
+                                <div class="col-md-offset-1 col-md-5">
+                                    <div class="timeline">
+                                        <div class="timeline-content">
+                                            <h4 class="title">
 
-                <div class="single-timeline-box fix">
-                    <div class="row">
-                        <span><i class="fa fa-circle circle-content" aria-hidden="true"></i></span>
-                        <div class="col-md-offset-1 col-md-5 experience-time-responsive">
-                            <div class="experience-time">
-                                <h2>
-                                    2016 - 2018
-                                </h2>
-                                <h3>associate design director</h3>
-                                <img class="historyImage" src="/images/banner/historySample.jpg"
-                                    alt="historySampleImage">
-                            </div>
-                            <!--/.experience-time-->
-                        </div>
-                        <!--/.col-->
-                        <div class="col-md-5">
-                            <div class="timeline">
-                                <div class="timeline-content text_right">
-                                    <h4 class="title">
-                                        hoplony tech limited
-                                    </h4>
-                                    <h5>newyork, USA</h5>
-                                    <p class="description text_right">
-                                        Duis aute irure dolor in reprehenderit in vol patate velit esse cillum dolore eu
-                                        fugiat nulla pari. Excepteur sint occana inna tecat cupidatat non proident.
-                                    </p>
+                                                hoplony tech limited
+                                            </h4>
+                                            <h5>newyork, USA</h5>
+                                            <p class="description">
+                                                Duis aute irure dolor in reprehenderit in vol patate velit esse cillum
+                                                dolore eu
+                                                fugiat nulla pari. Excepteur sint occana inna tecat cupidatat non
+                                                proident.
+                                            </p>
+                                        </div>
+                                        <!--/.timeline-content-->
+                                    </div>
+                                    <!--/.timeline-->
                                 </div>
-                                <!--/.timeline-content-->
+                                <!--/.col-->
                             </div>
-                            <!--/.timeline-->
                         </div>
-                        <!--/.col-->
-                        <div class="col-md-offset-1 col-md-5 experience-time-main">
-                            <div class="experience-time">
-                                <h2>
-                                    2016 - 2018
-                                </h2>
-                                <h3>associate design director</h3>
-                                <img class="historyImage" src="/images/banner/historySample.jpg"
-                                    alt="historySampleImage">
-                            </div>
-                            <!--/.experience-time-->
-                        </div>
-                        <!--/.col-->
-                    </div>
-                </div>
-                <!--/.single-timeline-box-->
+                        <!--/.single-timeline-box-->
 
-                <div class="single-timeline-box fix">
-                    <div class="row">
-                        <div class="col-md-5">
-                            <div class="experience-time text_right">
-                                <h2>2013 - 2016</h2>
-                                <h3>senior UI/UX designer</h3>
-                                <img class="historyImage" src="/images/banner/historySample.jpg"
-                                    alt="historySampleImage">
-                            </div>
-                            <!--/.experience-time-->
-                        </div>
-                        <!--/.col-->
-                        <span><i class="fa fa-circle circle-content" aria-hidden="true"></i></span>
-                        <div class="col-md-offset-1 col-md-5">
-                            <div class="timeline">
-                                <div class="timeline-content">
-                                    <h4 class="title">
-                                        hoplony tech limited
-                                    </h4>
-                                    <h5>newyork, USA</h5>
-                                    <p class="description">
-                                        Duis aute irure dolor in reprehenderit in vol patate velit esse cillum dolore eu
-                                        fugiat nulla pari. Excepteur sint occana inna tecat cupidatat non proident.
-                                    </p>
+                        <div class="single-timeline-box fix">
+                            <div class="row">
+                                <span><i class="fa fa-circle circle-content" aria-hidden="true"></i></span>
+                                <div class="col-md-offset-1 col-md-5 experience-time-responsive">
+                                    <div class="experience-time">
+                                        <h2>
+                                            2016 - 2018
+                                        </h2>
+                                        <h3>associate design director</h3>
+                                        <img class="historyImage" src="/images/banner/historySample.jpg"
+                                            alt="historySampleImage">
+                                    </div>
+                                    <!--/.experience-time-->
                                 </div>
-                                <!--/.timeline-content-->
-                            </div>
-                            <!--/.timeline-->
-                        </div>
-                        <!--/.col-->
-                    </div>
-                </div>
-                <!--/.single-timeline-box-->
-
-                <div class="single-timeline-box fix">
-                    <div class="row">
-                        <div class="col-md-offset-1 col-md-5 experience-time-responsive">
-                            <div class="experience-time">
-                                <h2>
-                                    2012 - 2013
-                                </h2>
-                                <h3>UI/UX designer</h3>
-                                <img class="historyImage" src="/images/banner/historySample.jpg"
-                                    alt="historySampleImage">
-                            </div>
-                            <!--/.experience-time-->
-                        </div>
-                        <!--/.col-->
-                        <span><i class="fa fa-circle circle-content" aria-hidden="true"></i></span>
-                        <div class="col-md-5">
-                            <div class="timeline">
-                                <div class="timeline-content text_right">
-                                    <h4 class="title">
-                                        hoplony tech limited
-                                    </h4>
-                                    <h5>newyork, USA</h5>
-                                    <p class="description">
-                                        Duis aute irure dolor in reprehenderit in vol patate velit esse cillum dolore eu
-                                        fugiat nulla pari. Excepteur sint occana inna tecat cupidatat non proident.
-                                    </p>
+                                <!--/.col-->
+                                <div class="col-md-5">
+                                    <div class="timeline">
+                                        <div class="timeline-content text_right">
+                                            <h4 class="title">
+                                                hoplony tech limited
+                                            </h4>
+                                            <h5>newyork, USA</h5>
+                                            <p class="description text_right">
+                                                Duis aute irure dolor in reprehenderit in vol patate velit esse cillum
+                                                dolore eu
+                                                fugiat nulla pari. Excepteur sint occana inna tecat cupidatat non
+                                                proident.
+                                            </p>
+                                        </div>
+                                        <!--/.timeline-content-->
+                                    </div>
+                                    <!--/.timeline-->
                                 </div>
-                                <!--/.timeline-content-->
-                            </div>
-                            <!--/.timeline-->
-                        </div>
-                        <!--/.col-->
-                        <div class="col-md-offset-1 col-md-5 experience-time-main">
-                            <div class="experience-time">
-                                <h2>
-                                    2012 - 2013
-                                </h2>
-                                <h3>UI/UX designer</h3>
-                                <img class="historyImage" src="/images/banner/historySample.jpg"
-                                    alt="historySampleImage">
-                            </div>
-                            <!--/.experience-time-->
-                        </div>
-                        <!--/.col-->
-                    </div>
-                </div>
-                <!--/.single-timeline-box-->
-
-                <div class="single-timeline-box fix">
-                    <div class="row">
-                        <div class="col-md-5">
-                            <div class="experience-time text_right">
-                                <h2>2010 - 2012</h2>
-                                <h3>frontend developer</h3>
-                                <img class="historyImage" src="/images/banner/historySample.jpg"
-                                    alt="historySampleImage">
-                            </div>
-                            <!--/.experience-time-->
-                        </div>
-                        <!--/.col-->
-                        <span><i class="fa fa-circle circle-content" aria-hidden="true"></i></span>
-                        <div class="col-md-offset-1 col-md-5">
-                            <div class="timeline">
-                                <div class="timeline-content">
-                                    <h4 class="title">
-                                        hoplony tech limited
-                                    </h4>
-                                    <h5>newyork, USA</h5>
-                                    <p class="description">
-                                        Duis aute irure dolor in reprehenderit in vol patate velit esse cillum dolore eu
-                                        fugiat nulla pari. Excepteur sint occana inna tecat cupidatat non proident.
-                                    </p>
+                                <!--/.col-->
+                                <div class="col-md-offset-1 col-md-5 experience-time-main">
+                                    <div class="experience-time">
+                                        <h2>
+                                            2016 - 2018
+                                        </h2>
+                                        <h3>associate design director</h3>
+                                        <img class="historyImage" src="/images/banner/historySample.jpg"
+                                            alt="historySampleImage">
+                                    </div>
+                                    <!--/.experience-time-->
                                 </div>
-                                <!--/.timeline-content-->
+                                <!--/.col-->
                             </div>
-                            <!--/.timeline-->
                         </div>
-                        <!--/.col-->
-                    </div>
-                </div>
-                <!--/.single-timeline-box-->
+                        <!--/.single-timeline-box-->
 
+                        <div class="single-timeline-box fix">
+                            <div class="row">
+                                <div class="col-md-5">
+                                    <div class="experience-time text_right">
+                                        <h2>2013 - 2016</h2>
+                                        <h3>senior UI/UX designer</h3>
+                                        <img class="historyImage" src="/images/banner/historySample.jpg"
+                                            alt="historySampleImage">
+                                    </div>
+                                    <!--/.experience-time-->
+                                </div>
+                                <!--/.col-->
+                                <span><i class="fa fa-circle circle-content" aria-hidden="true"></i></span>
+                                <div class="col-md-offset-1 col-md-5">
+                                    <div class="timeline">
+                                        <div class="timeline-content">
+                                            <h4 class="title">
+                                                hoplony tech limited
+                                            </h4>
+                                            <h5>newyork, USA</h5>
+                                            <p class="description">
+                                                Duis aute irure dolor in reprehenderit in vol patate velit esse cillum
+                                                dolore eu
+                                                fugiat nulla pari. Excepteur sint occana inna tecat cupidatat non
+                                                proident.
+                                            </p>
+                                        </div>
+                                        <!--/.timeline-content-->
+                                    </div>
+                                    <!--/.timeline-->
+                                </div>
+                                <!--/.col-->
+                            </div>
+                        </div>
+                        <!--/.single-timeline-box-->
+
+                        <div class="single-timeline-box fix">
+                            <div class="row">
+                                <div class="col-md-offset-1 col-md-5 experience-time-responsive">
+                                    <div class="experience-time">
+                                        <h2>
+                                            2012 - 2013
+                                        </h2>
+                                        <h3>UI/UX designer</h3>
+                                        <img class="historyImage" src="/images/banner/historySample.jpg"
+                                            alt="historySampleImage">
+                                    </div>
+                                    <!--/.experience-time-->
+                                </div>
+                                <!--/.col-->
+                                <span><i class="fa fa-circle circle-content" aria-hidden="true"></i></span>
+                                <div class="col-md-5">
+                                    <div class="timeline">
+                                        <div class="timeline-content text_right">
+                                            <h4 class="title">
+                                                hoplony tech limited
+                                            </h4>
+                                            <h5>newyork, USA</h5>
+                                            <p class="description">
+                                                Duis aute irure dolor in reprehenderit in vol patate velit esse cillum
+                                                dolore eu
+                                                fugiat nulla pari. Excepteur sint occana inna tecat cupidatat non
+                                                proident.
+                                            </p>
+                                        </div>
+                                        <!--/.timeline-content-->
+                                    </div>
+                                    <!--/.timeline-->
+                                </div>
+                                <!--/.col-->
+                                <div class="col-md-offset-1 col-md-5 experience-time-main">
+                                    <div class="experience-time">
+                                        <h2>
+                                            2012 - 2013
+                                        </h2>
+                                        <h3>UI/UX designer</h3>
+                                        <img class="historyImage" src="/images/banner/historySample.jpg"
+                                            alt="historySampleImage">
+                                    </div>
+                                    <!--/.experience-time-->
+                                </div>
+                                <!--/.col-->
+                            </div>
+                        </div>
+                        <!--/.single-timeline-box-->
+
+                        <div class="single-timeline-box fix">
+                            <div class="row">
+                                <div class="col-md-5">
+                                    <div class="experience-time text_right">
+                                        <h2>2010 - 2012</h2>
+                                        <h3>frontend developer</h3>
+                                        <img class="historyImage" src="/images/banner/historySample.jpg"
+                                            alt="historySampleImage">
+                                    </div>
+                                    <!--/.experience-time-->
+                                </div>
+                                <!--/.col-->
+                                <span><i class="fa fa-circle circle-content" aria-hidden="true"></i></span>
+                                <div class="col-md-offset-1 col-md-5">
+                                    <div class="timeline">
+                                        <div class="timeline-content">
+                                            <h4 class="title">
+                                                hoplony tech limited
+                                            </h4>
+                                            <h5>newyork, USA</h5>
+                                            <p class="description">
+                                                Duis aute irure dolor in reprehenderit in vol patate velit esse cillum
+                                                dolore eu
+                                                fugiat nulla pari. Excepteur sint occana inna tecat cupidatat non
+                                                proident.
+                                            </p>
+                                        </div>
+                                        <!--/.timeline-content-->
+                                    </div>
+                                    <!--/.timeline-->
+                                </div>
+                                <!--/.col-->
+                            </div>
+                        </div>
+                        <!--/.single-timeline-box-->
+
+                    </div>
+                    <!--.main-timeline-->
+                </div>
+                <!--.experience-content-->
             </div>
-            <!--.main-timeline-->
+        
+
+
+        <div id="historyContainer_2009_2014">
+                <div class="container">
+                    <div class="experience-content">
+                        <div class="main-timeline">
+    
+                            <div class="single-timeline-box fix">
+                                <div class="row">
+                                    <div class="col-md-5">
+                                        <div class="experience-time text_right">
+                                            <h2>2018 - Present</h2>
+                                            <h3>creative director</h3>
+                                            <img class="historyImage" src="/images/banner/historySample.jpg"
+                                                alt="historySampleImage">
+                                        </div>
+                                        <!--/.experience-time-->
+                                    </div>
+                                    <!--/.col-->
+                                    <span><i class="fa fa-circle circle-content"></i></span>
+                                    <div class="col-md-offset-1 col-md-5">
+                                        <div class="timeline">
+                                            <div class="timeline-content">
+                                                <h4 class="title">
+    
+                                                    hoplony tech limited
+                                                </h4>
+                                                <h5>newyork, USA</h5>
+                                                <p class="description">
+                                                    Duis aute irure dolor in reprehenderit in vol patate velit esse cillum
+                                                    dolore eu
+                                                    fugiat nulla pari. Excepteur sint occana inna tecat cupidatat non
+                                                    proident.
+                                                </p>
+                                            </div>
+                                            <!--/.timeline-content-->
+                                        </div>
+                                        <!--/.timeline-->
+                                    </div>
+                                    <!--/.col-->
+                                </div>
+                            </div>
+                            <!--/.single-timeline-box-->
+    
+                            <div class="single-timeline-box fix">
+                                <div class="row">
+                                    <span><i class="fa fa-circle circle-content" aria-hidden="true"></i></span>
+                                    <div class="col-md-offset-1 col-md-5 experience-time-responsive">
+                                        <div class="experience-time">
+                                            <h2>
+                                                2016 - 2018
+                                            </h2>
+                                            <h3>associate design director</h3>
+                                            <img class="historyImage" src="/images/banner/historySample.jpg"
+                                                alt="historySampleImage">
+                                        </div>
+                                        <!--/.experience-time-->
+                                    </div>
+                                    <!--/.col-->
+                                    <div class="col-md-5">
+                                        <div class="timeline">
+                                            <div class="timeline-content text_right">
+                                                <h4 class="title">
+                                                    hoplony tech limited
+                                                </h4>
+                                                <h5>newyork, USA</h5>
+                                                <p class="description text_right">
+                                                    Duis aute irure dolor in reprehenderit in vol patate velit esse cillum
+                                                    dolore eu
+                                                    fugiat nulla pari. Excepteur sint occana inna tecat cupidatat non
+                                                    proident.
+                                                </p>
+                                            </div>
+                                            <!--/.timeline-content-->
+                                        </div>
+                                        <!--/.timeline-->
+                                    </div>
+                                    <!--/.col-->
+                                    <div class="col-md-offset-1 col-md-5 experience-time-main">
+                                        <div class="experience-time">
+                                            <h2>
+                                                2016 - 2018
+                                            </h2>
+                                            <h3>associate design director</h3>
+                                            <img class="historyImage" src="/images/banner/historySample.jpg"
+                                                alt="historySampleImage">
+                                        </div>
+                                        <!--/.experience-time-->
+                                    </div>
+                                    <!--/.col-->
+                                </div>
+                            </div>
+                            <!--/.single-timeline-box-->
+    
+                            <div class="single-timeline-box fix">
+                                <div class="row">
+                                    <div class="col-md-5">
+                                        <div class="experience-time text_right">
+                                            <h2>2013 - 2016</h2>
+                                            <h3>senior UI/UX designer</h3>
+                                            <img class="historyImage" src="/images/banner/historySample.jpg"
+                                                alt="historySampleImage">
+                                        </div>
+                                        <!--/.experience-time-->
+                                    </div>
+                                    <!--/.col-->
+                                    <span><i class="fa fa-circle circle-content" aria-hidden="true"></i></span>
+                                    <div class="col-md-offset-1 col-md-5">
+                                        <div class="timeline">
+                                            <div class="timeline-content">
+                                                <h4 class="title">
+                                                    hoplony tech limited
+                                                </h4>
+                                                <h5>newyork, USA</h5>
+                                                <p class="description">
+                                                    Duis aute irure dolor in reprehenderit in vol patate velit esse cillum
+                                                    dolore eu
+                                                    fugiat nulla pari. Excepteur sint occana inna tecat cupidatat non
+                                                    proident.
+                                                </p>
+                                            </div>
+                                            <!--/.timeline-content-->
+                                        </div>
+                                        <!--/.timeline-->
+                                    </div>
+                                    <!--/.col-->
+                                </div>
+                            </div>
+                            <!--/.single-timeline-box-->
+    
+                            <div class="single-timeline-box fix">
+                                <div class="row">
+                                    <div class="col-md-offset-1 col-md-5 experience-time-responsive">
+                                        <div class="experience-time">
+                                            <h2>
+                                                2012 - 2013
+                                            </h2>
+                                            <h3>UI/UX designer</h3>
+                                            <img class="historyImage" src="/images/banner/historySample.jpg"
+                                                alt="historySampleImage">
+                                        </div>
+                                        <!--/.experience-time-->
+                                    </div>
+                                    <!--/.col-->
+                                    <span><i class="fa fa-circle circle-content" aria-hidden="true"></i></span>
+                                    <div class="col-md-5">
+                                        <div class="timeline">
+                                            <div class="timeline-content text_right">
+                                                <h4 class="title">
+                                                    hoplony tech limited
+                                                </h4>
+                                                <h5>newyork, USA</h5>
+                                                <p class="description">
+                                                    Duis aute irure dolor in reprehenderit in vol patate velit esse cillum
+                                                    dolore eu
+                                                    fugiat nulla pari. Excepteur sint occana inna tecat cupidatat non
+                                                    proident.
+                                                </p>
+                                            </div>
+                                            <!--/.timeline-content-->
+                                        </div>
+                                        <!--/.timeline-->
+                                    </div>
+                                    <!--/.col-->
+                                    <div class="col-md-offset-1 col-md-5 experience-time-main">
+                                        <div class="experience-time">
+                                            <h2>
+                                                2012 - 2013
+                                            </h2>
+                                            <h3>UI/UX designer</h3>
+                                            <img class="historyImage" src="/images/banner/historySample.jpg"
+                                                alt="historySampleImage">
+                                        </div>
+                                        <!--/.experience-time-->
+                                    </div>
+                                    <!--/.col-->
+                                </div>
+                            </div>
+                            <!--/.single-timeline-box-->
+    
+                            <div class="single-timeline-box fix">
+                                <div class="row">
+                                    <div class="col-md-5">
+                                        <div class="experience-time text_right">
+                                            <h2>2010 - 2012</h2>
+                                            <h3>frontend developer</h3>
+                                            <img class="historyImage" src="/images/banner/historySample.jpg"
+                                                alt="historySampleImage">
+                                        </div>
+                                        <!--/.experience-time-->
+                                    </div>
+                                    <!--/.col-->
+                                    <span><i class="fa fa-circle circle-content" aria-hidden="true"></i></span>
+                                    <div class="col-md-offset-1 col-md-5">
+                                        <div class="timeline">
+                                            <div class="timeline-content">
+                                                <h4 class="title">
+                                                    hoplony tech limited
+                                                </h4>
+                                                <h5>newyork, USA</h5>
+                                                <p class="description">
+                                                    Duis aute irure dolor in reprehenderit in vol patate velit esse cillum
+                                                    dolore eu
+                                                    fugiat nulla pari. Excepteur sint occana inna tecat cupidatat non
+                                                    proident.
+                                                </p>
+                                            </div>
+                                            <!--/.timeline-content-->
+                                        </div>
+                                        <!--/.timeline-->
+                                    </div>
+                                    <!--/.col-->
+                                </div>
+                            </div>
+                            <!--/.single-timeline-box-->
+    
+                        </div>
+                        <!--.main-timeline-->
+                    </div>
+                    <!--.experience-content-->
+                </div>
+            </div>
+            
+
+
+            <div id="historyContainer_2">
+                    <div class="container">
+                        <div class="experience-content">
+                            <div class="main-timeline">
+        
+                                <div class="single-timeline-box fix">
+                                    <div class="row">
+                                        <div class="col-md-5">
+                                            <div class="experience-time text_right">
+                                                <h2>2018 - Present</h2>
+                                                <h3>creative director</h3>
+                                                <img class="historyImage" src="/images/banner/historySample.jpg"
+                                                    alt="historySampleImage">
+                                            </div>
+                                            <!--/.experience-time-->
+                                        </div>
+                                        <!--/.col-->
+                                        <span><i class="fa fa-circle circle-content"></i></span>
+                                        <div class="col-md-offset-1 col-md-5">
+                                            <div class="timeline">
+                                                <div class="timeline-content">
+                                                    <h4 class="title">
+        
+                                                        hoplony tech limited
+                                                    </h4>
+                                                    <h5>newyork, USA</h5>
+                                                    <p class="description">
+                                                        Duis aute irure dolor in reprehenderit in vol patate velit esse cillum
+                                                        dolore eu
+                                                        fugiat nulla pari. Excepteur sint occana inna tecat cupidatat non
+                                                        proident.
+                                                    </p>
+                                                </div>
+                                                <!--/.timeline-content-->
+                                            </div>
+                                            <!--/.timeline-->
+                                        </div>
+                                        <!--/.col-->
+                                    </div>
+                                </div>
+                                <!--/.single-timeline-box-->
+        
+                                <div class="single-timeline-box fix">
+                                    <div class="row">
+                                        <span><i class="fa fa-circle circle-content" aria-hidden="true"></i></span>
+                                        <div class="col-md-offset-1 col-md-5 experience-time-responsive">
+                                            <div class="experience-time">
+                                                <h2>
+                                                    2016 - 2018
+                                                </h2>
+                                                <h3>associate design director</h3>
+                                                <img class="historyImage" src="/images/banner/historySample.jpg"
+                                                    alt="historySampleImage">
+                                            </div>
+                                            <!--/.experience-time-->
+                                        </div>
+                                        <!--/.col-->
+                                        <div class="col-md-5">
+                                            <div class="timeline">
+                                                <div class="timeline-content text_right">
+                                                    <h4 class="title">
+                                                        hoplony tech limited
+                                                    </h4>
+                                                    <h5>newyork, USA</h5>
+                                                    <p class="description text_right">
+                                                        Duis aute irure dolor in reprehenderit in vol patate velit esse cillum
+                                                        dolore eu
+                                                        fugiat nulla pari. Excepteur sint occana inna tecat cupidatat non
+                                                        proident.
+                                                    </p>
+                                                </div>
+                                                <!--/.timeline-content-->
+                                            </div>
+                                            <!--/.timeline-->
+                                        </div>
+                                        <!--/.col-->
+                                        <div class="col-md-offset-1 col-md-5 experience-time-main">
+                                            <div class="experience-time">
+                                                <h2>
+                                                    2016 - 2018
+                                                </h2>
+                                                <h3>associate design director</h3>
+                                                <img class="historyImage" src="/images/banner/historySample.jpg"
+                                                    alt="historySampleImage">
+                                            </div>
+                                            <!--/.experience-time-->
+                                        </div>
+                                        <!--/.col-->
+                                    </div>
+                                </div>
+                                <!--/.single-timeline-box-->
+        
+                                <div class="single-timeline-box fix">
+                                    <div class="row">
+                                        <div class="col-md-5">
+                                            <div class="experience-time text_right">
+                                                <h2>2013 - 2016</h2>
+                                                <h3>senior UI/UX designer</h3>
+                                                <img class="historyImage" src="/images/banner/historySample.jpg"
+                                                    alt="historySampleImage">
+                                            </div>
+                                            <!--/.experience-time-->
+                                        </div>
+                                        <!--/.col-->
+                                        <span><i class="fa fa-circle circle-content" aria-hidden="true"></i></span>
+                                        <div class="col-md-offset-1 col-md-5">
+                                            <div class="timeline">
+                                                <div class="timeline-content">
+                                                    <h4 class="title">
+                                                        hoplony tech limited
+                                                    </h4>
+                                                    <h5>newyork, USA</h5>
+                                                    <p class="description">
+                                                        Duis aute irure dolor in reprehenderit in vol patate velit esse cillum
+                                                        dolore eu
+                                                        fugiat nulla pari. Excepteur sint occana inna tecat cupidatat non
+                                                        proident.
+                                                    </p>
+                                                </div>
+                                                <!--/.timeline-content-->
+                                            </div>
+                                            <!--/.timeline-->
+                                        </div>
+                                        <!--/.col-->
+                                    </div>
+                                </div>
+                                <!--/.single-timeline-box-->
+        
+                                <div class="single-timeline-box fix">
+                                    <div class="row">
+                                        <div class="col-md-offset-1 col-md-5 experience-time-responsive">
+                                            <div class="experience-time">
+                                                <h2>
+                                                    2012 - 2013
+                                                </h2>
+                                                <h3>UI/UX designer</h3>
+                                                <img class="historyImage" src="/images/banner/historySample.jpg"
+                                                    alt="historySampleImage">
+                                            </div>
+                                            <!--/.experience-time-->
+                                        </div>
+                                        <!--/.col-->
+                                        <span><i class="fa fa-circle circle-content" aria-hidden="true"></i></span>
+                                        <div class="col-md-5">
+                                            <div class="timeline">
+                                                <div class="timeline-content text_right">
+                                                    <h4 class="title">
+                                                        hoplony tech limited
+                                                    </h4>
+                                                    <h5>newyork, USA</h5>
+                                                    <p class="description">
+                                                        Duis aute irure dolor in reprehenderit in vol patate velit esse cillum
+                                                        dolore eu
+                                                        fugiat nulla pari. Excepteur sint occana inna tecat cupidatat non
+                                                        proident.
+                                                    </p>
+                                                </div>
+                                                <!--/.timeline-content-->
+                                            </div>
+                                            <!--/.timeline-->
+                                        </div>
+                                        <!--/.col-->
+                                        <div class="col-md-offset-1 col-md-5 experience-time-main">
+                                            <div class="experience-time">
+                                                <h2>
+                                                    2012 - 2013
+                                                </h2>
+                                                <h3>UI/UX designer</h3>
+                                                <img class="historyImage" src="/images/banner/historySample.jpg"
+                                                    alt="historySampleImage">
+                                            </div>
+                                            <!--/.experience-time-->
+                                        </div>
+                                        <!--/.col-->
+                                    </div>
+                                </div>
+                                <!--/.single-timeline-box-->
+        
+                                <div class="single-timeline-box fix">
+                                    <div class="row">
+                                        <div class="col-md-5">
+                                            <div class="experience-time text_right">
+                                                <h2>2010 - 2012</h2>
+                                                <h3>frontend developer</h3>
+                                                <img class="historyImage" src="/images/banner/historySample.jpg"
+                                                    alt="historySampleImage">
+                                            </div>
+                                            <!--/.experience-time-->
+                                        </div>
+                                        <!--/.col-->
+                                        <span><i class="fa fa-circle circle-content" aria-hidden="true"></i></span>
+                                        <div class="col-md-offset-1 col-md-5">
+                                            <div class="timeline">
+                                                <div class="timeline-content">
+                                                    <h4 class="title">
+                                                        hoplony tech limited
+                                                    </h4>
+                                                    <h5>newyork, USA</h5>
+                                                    <p class="description">
+                                                        Duis aute irure dolor in reprehenderit in vol patate velit esse cillum
+                                                        dolore eu
+                                                        fugiat nulla pari. Excepteur sint occana inna tecat cupidatat non
+                                                        proident.
+                                                    </p>
+                                                </div>
+                                                <!--/.timeline-content-->
+                                            </div>
+                                            <!--/.timeline-->
+                                        </div>
+                                        <!--/.col-->
+                                    </div>
+                                </div>
+                                <!--/.single-timeline-box-->
+        
+                            </div>
+                            <!--.main-timeline-->
+                        </div>
+                        <!--.experience-content-->
+                    </div>
+                </div>
+            </div>
         </div>
-        <!--.experience-content-->
+    <!--history part end-->
+
+
+
+
+    <!----------------------------------- award ------------------------------------------------>
+    <!-- award part start-->
+    <div id="awardContainer">
+        <div class="container">
+            <div class="experience-content">
+                <div class="main-timeline">
+
+                    <div class="single-timeline-box fix">
+                        <div class="row">
+                            <div class="col-md-5">
+                                <div class="experience-time text_right">
+                                    <h2>award</h2>
+                                    <h3>creative director</h3>
+                                    <img class="historyImage" src="/images/banner/historySample.jpg"
+                                        alt="historySampleImage">
+                                </div>
+                                <!--/.experience-time-->
+                            </div>
+                            <!--/.col-->
+                            <span><i class="fa fa-circle circle-content" aria-hidden="true"></i></span>
+                            <div class="col-md-offset-1 col-md-5">
+                                <div class="timeline">
+                                    <div class="timeline-content">
+                                        <h4 class="title">
+
+                                            hoplony tech limited
+                                        </h4>
+                                        <h5>newyork, USA</h5>
+                                        <p class="description">
+                                            Duis aute irure dolor in reprehenderit in vol patate velit esse cillum
+                                            dolore eu
+                                            fugiat nulla pari. Excepteur sint occana inna tecat cupidatat non proident.
+                                        </p>
+                                    </div>
+                                    <!--/.timeline-content-->
+                                </div>
+                                <!--/.timeline-->
+                            </div>
+                            <!--/.col-->
+                        </div>
+                    </div>
+                    <!--/.single-timeline-box-->
+
+                    <div class="single-timeline-box fix">
+                        <div class="row">
+                            <span><i class="fa fa-circle circle-content" aria-hidden="true"></i></span>
+                            <div class="col-md-offset-1 col-md-5 experience-time-responsive">
+                                <div class="experience-time">
+                                    <h2>
+                                        2016 - 2018
+                                    </h2>
+                                    <h3>associate design director</h3>
+                                    <img class="historyImage" src="/images/banner/historySample.jpg"
+                                        alt="historySampleImage">
+                                </div>
+                                <!--/.experience-time-->
+                            </div>
+                            <!--/.col-->
+                            <div class="col-md-5">
+                                <div class="timeline">
+                                    <div class="timeline-content text_right">
+                                        <h4 class="title">
+                                            hoplony tech limited
+                                        </h4>
+                                        <h5>newyork, USA</h5>
+                                        <p class="description text_right">
+                                            Duis aute irure dolor in reprehenderit in vol patate velit esse cillum
+                                            dolore eu
+                                            fugiat nulla pari. Excepteur sint occana inna tecat cupidatat non proident.
+                                        </p>
+                                    </div>
+                                    <!--/.timeline-content-->
+                                </div>
+                                <!--/.timeline-->
+                            </div>
+                            <!--/.col-->
+                            <div class="col-md-offset-1 col-md-5 experience-time-main">
+                                <div class="experience-time">
+                                    <h2>
+                                        2016 - 2018
+                                    </h2>
+                                    <h3>associate design director</h3>
+                                    <img class="historyImage" src="/images/banner/historySample.jpg"
+                                        alt="historySampleImage">
+                                </div>
+                                <!--/.experience-time-->
+                            </div>
+                            <!--/.col-->
+                        </div>
+                    </div>
+                    <!--/.single-timeline-box-->
+
+                    <div class="single-timeline-box fix">
+                        <div class="row">
+                            <div class="col-md-5">
+                                <div class="experience-time text_right">
+                                    <h2>2013 - 2016</h2>
+                                    <h3>senior UI/UX designer</h3>
+                                    <img class="historyImage" src="/images/banner/historySample.jpg"
+                                        alt="historySampleImage">
+                                </div>
+                                <!--/.experience-time-->
+                            </div>
+                            <!--/.col-->
+                            <span><i class="fa fa-circle circle-content" aria-hidden="true"></i></span>
+                            <div class="col-md-offset-1 col-md-5">
+                                <div class="timeline">
+                                    <div class="timeline-content">
+                                        <h4 class="title">
+                                            hoplony tech limited
+                                        </h4>
+                                        <h5>newyork, USA</h5>
+                                        <p class="description">
+                                            Duis aute irure dolor in reprehenderit in vol patate velit esse cillum
+                                            dolore eu
+                                            fugiat nulla pari. Excepteur sint occana inna tecat cupidatat non proident.
+                                        </p>
+                                    </div>
+                                    <!--/.timeline-content-->
+                                </div>
+                                <!--/.timeline-->
+                            </div>
+                            <!--/.col-->
+                        </div>
+                    </div>
+                    <!--/.single-timeline-box-->
+
+                    <div class="single-timeline-box fix">
+                        <div class="row">
+                            <div class="col-md-offset-1 col-md-5 experience-time-responsive">
+                                <div class="experience-time">
+                                    <h2>
+                                        2012 - 2013
+                                    </h2>
+                                    <h3>UI/UX designer</h3>
+                                    <img class="historyImage" src="/images/banner/historySample.jpg"
+                                        alt="historySampleImage">
+                                </div>
+                                <!--/.experience-time-->
+                            </div>
+                            <!--/.col-->
+                            <span><i class="fa fa-circle circle-content" aria-hidden="true"></i></span>
+                            <div class="col-md-5">
+                                <div class="timeline">
+                                    <div class="timeline-content text_right">
+                                        <h4 class="title">
+                                            hoplony tech limited
+                                        </h4>
+                                        <h5>newyork, USA</h5>
+                                        <p class="description">
+                                            Duis aute irure dolor in reprehenderit in vol patate velit esse cillum
+                                            dolore eu
+                                            fugiat nulla pari. Excepteur sint occana inna tecat cupidatat non proident.
+                                        </p>
+                                    </div>
+                                    <!--/.timeline-content-->
+                                </div>
+                                <!--/.timeline-->
+                            </div>
+                            <!--/.col-->
+                            <div class="col-md-offset-1 col-md-5 experience-time-main">
+                                <div class="experience-time">
+                                    <h2>
+                                        2012 - 2013
+                                    </h2>
+                                    <h3>UI/UX designer</h3>
+                                    <img class="historyImage" src="/images/banner/historySample.jpg"
+                                        alt="historySampleImage">
+                                </div>
+                                <!--/.experience-time-->
+                            </div>
+                            <!--/.col-->
+                        </div>
+                    </div>
+                    <!--/.single-timeline-box-->
+
+                    <div class="single-timeline-box fix">
+                        <div class="row">
+                            <div class="col-md-5">
+                                <div class="experience-time text_right">
+                                    <h2>2010 - 2012</h2>
+                                    <h3>frontend developer</h3>
+                                    <img class="historyImage" src="/images/banner/historySample.jpg"
+                                        alt="historySampleImage">
+                                </div>
+                                <!--/.experience-time-->
+                            </div>
+                            <!--/.col-->
+                            <span><i class="fa fa-circle circle-content" aria-hidden="true"></i></span>
+                            <div class="col-md-offset-1 col-md-5">
+                                <div class="timeline">
+                                    <div class="timeline-content">
+                                        <h4 class="title">
+                                            hoplony tech limited
+                                        </h4>
+                                        <h5>newyork, USA</h5>
+                                        <p class="description">
+                                            Duis aute irure dolor in reprehenderit in vol patate velit esse cillum
+                                            dolore eu
+                                            fugiat nulla pari. Excepteur sint occana inna tecat cupidatat non proident.
+                                        </p>
+                                    </div>
+                                    <!--/.timeline-content-->
+                                </div>
+                                <!--/.timeline-->
+                            </div>
+                            <!--/.col-->
+                        </div>
+                    </div>
+                    <!--/.single-timeline-box-->
+
+                </div>
+                <!--.main-timeline-->
+            </div>
+            <!--.experience-content-->
+        </div>
     </div>
+    <!--award part end-->
 
-    </section>
-    <!--/.experience-->
-    <!--experience end -->
-
-
-
-    <div>
-        <!--Main Layout end-->
+    <!--Main Layout end-->
 
 
 
-        <!-- Footer -->
-        <div class="footer"></div>
-        <!-- Footer -->
+    <!-- Footer -->
+    <div class="footer"></div>
+    <!-- Footer -->
 
-        <!-- Optional JavaScript -->
-        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script src="https://code.jquery.com/jquery-3.3.1.min.js"
-            integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT"
-            crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-            crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-            crossorigin="anonymous"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
 
-        <!-- Scripts -->
-        <script src="js/agency.js"></script>
-        <script src="js/navshrink.js"></script>
+    <!-- Scripts -->
+    <script src="/js/agency.js"></script>
+    <script src="/js/navshrink.js"></script>
 </body>
 
 </html>
