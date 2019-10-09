@@ -646,6 +646,47 @@ a:hover{
 -----------------------------
 -----------------------------*/
 
+/*history Year Select*/
+.historyYearSelect{
+    padding-bottom: 5vh;
+}
+
+.historyYearSelect table{
+    width:70vw;
+    margin:auto;
+    border:1px solid #d9d9d9;
+    text-align: left;
+}
+
+.historyYearSelect td{
+    border:1px solid #d9d9d9;
+
+}
+
+.historyYear{
+    padding-top: 15px;
+}
+
+.historyYear a{
+    color:#111;
+}
+
+.historyYear .hYear{
+    font-size: 23px;
+    font-weight: 500;
+    padding-left: 20px;
+}
+
+.historyYear p{
+    font-size: 15px;
+    padding-left: 20px;
+}
+
+#historyYear1{
+    background-color: #b2c55f;
+    color: #ffffff;
+}
+
 .historyBanner{
     padding-top: 3vh;
     height: 50vh;
@@ -661,7 +702,7 @@ a:hover{
 
 .historyAwardsSelect {
     text-align: center;
-    padding-bottom: 10vh;
+    padding-bottom: 8vh;
 }
 
 .historyAwardsSelect a{
@@ -671,10 +712,21 @@ a:hover{
     padding-bottom: 1vh;
     font-size: 48px;
     font-weight: 350;
-    color: rgb(117, 10, 10);
+    color: rgb(29, 28, 28);
+    
 }
 
+#hisSelect {
+    color: rgb(172, 128, 34);
+    border-bottom:2.5px solid #b2c55f;
+}
+
+
+
 .single-timeline-box {margin-bottom: 75px;}
+
+
+
 
 .single-timeline-box .col-md-5 {
     
@@ -687,8 +739,8 @@ a:hover{
 .experience-time h2 {
     font-weight: 400;
 }
-.experience-time h3 {
-    font-size: 16px;
+.experience-time p {
+    font-size: 12px;
     font-weight: 300;
     color: #636a82;
     margin-top: 14px;
@@ -696,7 +748,7 @@ a:hover{
 }
 .historyImage{
     height:210px;
-    width:300px;
+    width:280px;
 }
 
 /*experience-time*/
@@ -735,10 +787,9 @@ a:hover{
 
     z-index: 1;
 }
-.timeline-content h4.title {
+.timeline-content span.title {
     font-size: 16px;
     font-weight: 400;
-    text-transform: uppercase;
 }
 .timeline-content h5 {
     color: #636a82;
@@ -784,6 +835,11 @@ a:hover{
 	.experience-time, .timeline-content {margin-left: 0;}
 
 }
+
+#awardContainer{
+    display: none;
+}
+
 
 /* history end*/
 
