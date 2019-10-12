@@ -405,16 +405,6 @@
     max-width: 100%;
 }
 
-body{
-    height: 100%;
-    
-}
-
-html{
-    height: 100%
-
-}
-
 @media screen and (max-width: 991px){
     .box_right_service {
         background-position: center;
