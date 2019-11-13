@@ -18,19 +18,31 @@
 
 
     <div id="container">
-        <!--experience start -->
+
+
+        <!--History and award default banner start-->
+        <div class="introBanner">
+                <div class="bannerContainer">
+                  <h2 class="bannerTitle">연혁/수상내역 </h2>
+                  <p class="bannerDescription">해커의 연혁과 수상내역을 이야기합니다.</p>
+                </div>
+        </div>
+        <!--History and award default banner end-->
+
+        <!--History and award image banner start-->
         <img class="historyBanner" src="/images/banner/historyBanner.png" alt="historyBanner">
 
         <main class="mt-5">
             <section class="historyAwardsSelect">
-                <div class="container">
+                
                     <a id="hisSelect" href="javascript:doHistoryDisplay();" onmouseover="mHistoryOver()"
-                        onmouseout="mHistoryOut()">History</a><span id="margin"> </span>
+                        onmouseout="mHistoryOut()">연혁</a><span id="margin"> </span>
                     <a id="awardsSelect" href="javascript:doAwardDisplay();" onmouseover="mAwardsOver()"
-                        onmouseout="mAwardsOut()">Awards</a>
-                </div>
+                        onmouseout="mAwardsOut()">수상내역</a>
+                
             </section>
         </main>
+
     </div>
 
     <!-- history part start-->
@@ -38,36 +50,39 @@
         <div class="historyYearSelect">
             <table>
             <tr>
-                <td class="historyYear" id="historyYear1" onmouseover="mHistoryYear1Over()"
+                <td class="historyYear" id="historyYear1" onclick="doHisYear1Display();" onmouseover="mHistoryYear1Over()"
                 onmouseout="mHistoryYear1Out()">
-                    <a class="hisYearSelect1" href="javascript:doHisYear1Display();">
+                    <span class="hisYearSelect1">
                         <span class="hYear">2015-2019</span>
                         <p>Sample Text</p>
-                    </a>
+                    </span>
                 </td>
-                <td class="historyYear" id="historyYear2" onmouseover="mHistoryYear2Over()"
+                <td class="historyYear" id="historyYear2" onclick="doHisYear2Display();" onmouseover="mHistoryYear2Over()"
                 onmouseout="mHistoryYear2Out()">
-                    <a class="hisYearSelect2" href="javascript:doHisYear2Display();">
+                    <span class="hisYearSelect2">
                         <span class="hYear">2009-2014</span>
                         <p>Sample Text</p>
-                    </a>
+                    </span>
                 </td>
-                <td class="historyYear" id="historyYear3" onmouseover="mHistoryYear3Over()"
+                <td class="historyYear" id="historyYear3" onclick="doHisYear3Display();" onmouseover="mHistoryYear3Over()"
                 onmouseout="mHistoryYear3Out()">
-                    <a class="hisYearSelect3" href="javascript:doHisYear3Display();">
+                    <span class="hisYearSelect3">
                         <span class="hYear">1987-2008</span>
                         <p>Sample Text</p>
-                    </a>
+                    </span>
                 </td>
             </tr>
             </table>
         </div>
 
-        <div id="historyContainer_1">
+        <div class = "historyDescription" id="historyContainer_1">
                     <div class="container">
+                        <div class="miniTitle">
+                           <h2>201<span id = "yearUnderLine">5-2</span>019</h2>
+                           
+                        </div>
                         <div class="experience-content">
                             <div class="main-timeline">
-        
                                     <div class="single-timeline-box fix">
                                             <div class="row">
                                                 <div class="col-md-5">
@@ -80,7 +95,7 @@
                                                     <!--/.experience-time-->
                                                 </div>
                                                 <!--/.col-->
-                                                <span><i class="fa fa-circle circle-content"></i></span>
+                                                <span><i class="fa fa-circle fa-sm circle-content"></i></span>
                                                 <div class="col-md-offset-1 col-md-5">
                                                     <div class="timeline">
                                                         <div class="timeline-content">
@@ -141,7 +156,7 @@
                                                 <!--/.experience-time-->
                                             </div>
                                             <!--/.col-->
-                                            <span><i class="fa fa-circle circle-content" aria-hidden="true"></i></span>
+                                            <span><i class="fa fa-circle fa-sm circle-content" aria-hidden="true"></i></span>
                                             <div class="col-md-5">
                                                 <div class="timeline">
                                                     <div class="timeline-content text_right">
@@ -211,7 +226,7 @@
                                             <!--/.experience-time-->
                                         </div>
                                         <!--/.col-->
-                                        <span><i class="fa fa-circle circle-content" aria-hidden="true"></i></span>
+                                        <span><i class="fa fa-circle fa-sm circle-content" aria-hidden="true"></i></span>
                                         <div class="col-md-offset-1 col-md-5">
                                             <div class="timeline">
                                                 <div class="timeline-content">
@@ -249,7 +264,7 @@
                                             <!--/.experience-time-->
                                         </div>
                                         <!--/.col-->
-                                        <span><i class="fa fa-circle circle-content" aria-hidden="true"></i></span>
+                                        <span><i class="fa fa-circle fa-sm circle-content" aria-hidden="true"></i></span>
                                         <div class="col-md-5">
                                             <div class="timeline">
                                                 <div class="timeline-content text_right">
@@ -319,7 +334,7 @@
                                             <!--/.experience-time-->
                                         </div>
                                         <!--/.col-->
-                                        <span><i class="fa fa-circle circle-content" aria-hidden="true"></i></span>
+                                        <span><i class="fa fa-circle fa-sm circle-content" aria-hidden="true"></i></span>
                                         <div class="col-md-offset-1 col-md-5">
                                             <div class="timeline">
                                                 <div class="timeline-content">
@@ -351,8 +366,12 @@
                 
         </div>
 
-        <div id="historyContainer_2">
+        <div class="historyDescription" id="historyContainer_2">
                 <div class="container">
+                        <div class="miniTitle">
+                                <h2>200<span id = "yearUnderLine">9-2</span>014</h2>
+                                
+                             </div>
                     <div class="experience-content">
                         <div class="main-timeline">
     
@@ -368,7 +387,7 @@
                                                 <!--/.experience-time-->
                                             </div>
                                             <!--/.col-->
-                                            <span><i class="fa fa-circle circle-content"></i></span>
+                                            <span><i class="fa fa-circle fa-sm circle-content"></i></span>
                                             <div class="col-md-offset-1 col-md-5">
                                                 <div class="timeline">
                                                     <div class="timeline-content">
@@ -429,7 +448,7 @@
                                             <!--/.experience-time-->
                                         </div>
                                         <!--/.col-->
-                                        <span><i class="fa fa-circle circle-content" aria-hidden="true"></i></span>
+                                        <span><i class="fa fa-circle fa-sm circle-content" aria-hidden="true"></i></span>
                                         <div class="col-md-5">
                                             <div class="timeline">
                                                 <div class="timeline-content text_right">
@@ -499,7 +518,7 @@
                                         <!--/.experience-time-->
                                     </div>
                                     <!--/.col-->
-                                    <span><i class="fa fa-circle circle-content" aria-hidden="true"></i></span>
+                                    <span><i class="fa fa-circle fa-sm circle-content" aria-hidden="true"></i></span>
                                     <div class="col-md-offset-1 col-md-5">
                                         <div class="timeline">
                                             <div class="timeline-content">
@@ -537,7 +556,7 @@
                                         <!--/.experience-time-->
                                     </div>
                                     <!--/.col-->
-                                    <span><i class="fa fa-circle circle-content" aria-hidden="true"></i></span>
+                                    <span><i class="fa fa-circle fa-sm circle-content" aria-hidden="true"></i></span>
                                     <div class="col-md-5">
                                         <div class="timeline">
                                             <div class="timeline-content text_right">
@@ -607,7 +626,7 @@
                                         <!--/.experience-time-->
                                     </div>
                                     <!--/.col-->
-                                    <span><i class="fa fa-circle circle-content" aria-hidden="true"></i></span>
+                                    <span><i class="fa fa-circle fa-sm circle-content" aria-hidden="true"></i></span>
                                     <div class="col-md-offset-1 col-md-5">
                                         <div class="timeline">
                                             <div class="timeline-content">
@@ -639,8 +658,11 @@
             
         </div>
 
-        <div id="historyContainer_3">
+        <div class="historyDescription"id="historyContainer_3">
             <div class="container">
+                    <div class="miniTitle">
+                            <h2>198<span id = "yearUnderLine">7-2</span>008</h2>
+                         </div>
                 <div class="experience-content">
                     <div class="main-timeline">
 
@@ -648,7 +670,7 @@
                                     <div class="row">
                                         <div class="col-md-5">
                                             <div class="experience-time text_right">
-                                                <h2>2008년</h2>
+                                                <h2>1987년</h2>
                                                 <img class="historyImage" src="/images/history/2019OT.jpg"
                                                 alt="2019OT">
                                                 <p>2019OT</p>
@@ -656,7 +678,7 @@
                                             <!--/.experience-time-->
                                         </div>
                                         <!--/.col-->
-                                        <span><i class="fa fa-circle circle-content"></i></span>
+                                        <span><i class="fa fa-circle fa-sm fa-sm circle-content"></i></span>
                                         <div class="col-md-offset-1 col-md-5">
                                             <div class="timeline">
                                                 <div class="timeline-content">
@@ -717,7 +739,7 @@
                                         <!--/.experience-time-->
                                     </div>
                                     <!--/.col-->
-                                    <span><i class="fa fa-circle circle-content" aria-hidden="true"></i></span>
+                                    <span><i class="fa fa-circle fa-sm circle-content" aria-hidden="true"></i></span>
                                     <div class="col-md-5">
                                         <div class="timeline">
                                             <div class="timeline-content text_right">
@@ -787,7 +809,7 @@
                                     <!--/.experience-time-->
                                 </div>
                                 <!--/.col-->
-                                <span><i class="fa fa-circle circle-content" aria-hidden="true"></i></span>
+                                <span><i class="fa fa-circle fa-sm circle-content" aria-hidden="true"></i></span>
                                 <div class="col-md-offset-1 col-md-5">
                                     <div class="timeline">
                                         <div class="timeline-content">
@@ -825,7 +847,7 @@
                                     <!--/.experience-time-->
                                 </div>
                                 <!--/.col-->
-                                <span><i class="fa fa-circle circle-content" aria-hidden="true"></i></span>
+                                <span><i class="fa fa-circle fa-sm circle-content" aria-hidden="true"></i></span>
                                 <div class="col-md-5">
                                     <div class="timeline">
                                         <div class="timeline-content text_right">
@@ -895,7 +917,7 @@
                                     <!--/.experience-time-->
                                 </div>
                                 <!--/.col-->
-                                <span><i class="fa fa-circle circle-content" aria-hidden="true"></i></span>
+                                <span><i class="fa fa-circle fa-sm circle-content" aria-hidden="true"></i></span>
                                 <div class="col-md-offset-1 col-md-5">
                                     <div class="timeline">
                                         <div class="timeline-content">
@@ -937,219 +959,265 @@
     <!----------------------------------- award ------------------------------------------------>
     <!-- award part start-->
     <div id="awardContainer">
-        <div class="container">
-            <div class="experience-content">
-                <div class="main-timeline">
-
-                    <div class="single-timeline-box fix">
-                        <div class="row">
-                            <div class="col-md-5">
-                                <div class="experience-time text_right">
-                                    <h2>award</h2>
-                                    <h3>creative director</h3>
-                                    <img class="historyImage" src="/images/banner/historySample.jpg"
-                                        alt="historySampleImage">
-                                </div>
-                                <!--/.experience-time-->
-                            </div>
-                            <!--/.col-->
-                            <span><i class="fa fa-circle circle-content" aria-hidden="true"></i></span>
-                            <div class="col-md-offset-1 col-md-5">
-                                <div class="timeline">
-                                    <div class="timeline-content">
-                                        <h4 class="title">
-
-                                            hoplony tech limited
-                                        </h4>
-                                        <h5>newyork, USA</h5>
-                                        <p class="description">
-                                            Duis aute irure dolor in reprehenderit in vol patate velit esse cillum
-                                            dolore eu
-                                            fugiat nulla pari. Excepteur sint occana inna tecat cupidatat non proident.
-                                        </p>
-                                    </div>
-                                    <!--/.timeline-content-->
-                                </div>
-                                <!--/.timeline-->
-                            </div>
-                            <!--/.col-->
-                        </div>
-                    </div>
-                    <!--/.single-timeline-box-->
-
-                    <div class="single-timeline-box fix">
-                        <div class="row">
-                            <span><i class="fa fa-circle circle-content" aria-hidden="true"></i></span>
-                            <div class="col-md-offset-1 col-md-5 experience-time-responsive">
-                                <div class="experience-time">
-                                    <h2>
-                                        2016 - 2018
-                                    </h2>
-                                    <h3>associate design director</h3>
-                                    <img class="historyImage" src="/images/banner/historySample.jpg"
-                                        alt="historySampleImage">
-                                </div>
-                                <!--/.experience-time-->
-                            </div>
-                            <!--/.col-->
-                            <div class="col-md-5">
-                                <div class="timeline">
-                                    <div class="timeline-content text_right">
-                                        <h4 class="title">
-                                            hoplony tech limited
-                                        </h4>
-                                        <h5>newyork, USA</h5>
-                                        <p class="description text_right">
-                                            Duis aute irure dolor in reprehenderit in vol patate velit esse cillum
-                                            dolore eu
-                                            fugiat nulla pari. Excepteur sint occana inna tecat cupidatat non proident.
-                                        </p>
-                                    </div>
-                                    <!--/.timeline-content-->
-                                </div>
-                                <!--/.timeline-->
-                            </div>
-                            <!--/.col-->
-                            <div class="col-md-offset-1 col-md-5 experience-time-main">
-                                <div class="experience-time">
-                                    <h2>
-                                        2016 - 2018
-                                    </h2>
-                                    <h3>associate design director</h3>
-                                    <img class="historyImage" src="/images/banner/historySample.jpg"
-                                        alt="historySampleImage">
-                                </div>
-                                <!--/.experience-time-->
-                            </div>
-                            <!--/.col-->
-                        </div>
-                    </div>
-                    <!--/.single-timeline-box-->
-
-                    <div class="single-timeline-box fix">
-                        <div class="row">
-                            <div class="col-md-5">
-                                <div class="experience-time text_right">
-                                    <h2>2013 - 2016</h2>
-                                    <h3>senior UI/UX designer</h3>
-                                    <img class="historyImage" src="/images/banner/historySample.jpg"
-                                        alt="historySampleImage">
-                                </div>
-                                <!--/.experience-time-->
-                            </div>
-                            <!--/.col-->
-                            <span><i class="fa fa-circle circle-content" aria-hidden="true"></i></span>
-                            <div class="col-md-offset-1 col-md-5">
-                                <div class="timeline">
-                                    <div class="timeline-content">
-                                        <h4 class="title">
-                                            hoplony tech limited
-                                        </h4>
-                                        <h5>newyork, USA</h5>
-                                        <p class="description">
-                                            Duis aute irure dolor in reprehenderit in vol patate velit esse cillum
-                                            dolore eu
-                                            fugiat nulla pari. Excepteur sint occana inna tecat cupidatat non proident.
-                                        </p>
-                                    </div>
-                                    <!--/.timeline-content-->
-                                </div>
-                                <!--/.timeline-->
-                            </div>
-                            <!--/.col-->
-                        </div>
-                    </div>
-                    <!--/.single-timeline-box-->
-
-                    <div class="single-timeline-box fix">
-                        <div class="row">
-                            <div class="col-md-offset-1 col-md-5 experience-time-responsive">
-                                <div class="experience-time">
-                                    <h2>
-                                        2012 - 2013
-                                    </h2>
-                                    <h3>UI/UX designer</h3>
-                                    <img class="historyImage" src="/images/banner/historySample.jpg"
-                                        alt="historySampleImage">
-                                </div>
-                                <!--/.experience-time-->
-                            </div>
-                            <!--/.col-->
-                            <span><i class="fa fa-circle circle-content" aria-hidden="true"></i></span>
-                            <div class="col-md-5">
-                                <div class="timeline">
-                                    <div class="timeline-content text_right">
-                                        <h4 class="title">
-                                            hoplony tech limited
-                                        </h4>
-                                        <h5>newyork, USA</h5>
-                                        <p class="description">
-                                            Duis aute irure dolor in reprehenderit in vol patate velit esse cillum
-                                            dolore eu
-                                            fugiat nulla pari. Excepteur sint occana inna tecat cupidatat non proident.
-                                        </p>
-                                    </div>
-                                    <!--/.timeline-content-->
-                                </div>
-                                <!--/.timeline-->
-                            </div>
-                            <!--/.col-->
-                            <div class="col-md-offset-1 col-md-5 experience-time-main">
-                                <div class="experience-time">
-                                    <h2>
-                                        2012 - 2013
-                                    </h2>
-                                    <h3>UI/UX designer</h3>
-                                    <img class="historyImage" src="/images/banner/historySample.jpg"
-                                        alt="historySampleImage">
-                                </div>
-                                <!--/.experience-time-->
-                            </div>
-                            <!--/.col-->
-                        </div>
-                    </div>
-                    <!--/.single-timeline-box-->
-
-                    <div class="single-timeline-box fix">
-                        <div class="row">
-                            <div class="col-md-5">
-                                <div class="experience-time text_right">
-                                    <h2>2010 - 2012</h2>
-                                    <h3>frontend developer</h3>
-                                    <img class="historyImage" src="/images/banner/historySample.jpg"
-                                        alt="historySampleImage">
-                                </div>
-                                <!--/.experience-time-->
-                            </div>
-                            <!--/.col-->
-                            <span><i class="fa fa-circle circle-content" aria-hidden="true"></i></span>
-                            <div class="col-md-offset-1 col-md-5">
-                                <div class="timeline">
-                                    <div class="timeline-content">
-                                        <h4 class="title">
-                                            hoplony tech limited
-                                        </h4>
-                                        <h5>newyork, USA</h5>
-                                        <p class="description">
-                                            Duis aute irure dolor in reprehenderit in vol patate velit esse cillum
-                                            dolore eu
-                                            fugiat nulla pari. Excepteur sint occana inna tecat cupidatat non proident.
-                                        </p>
-                                    </div>
-                                    <!--/.timeline-content-->
-                                </div>
-                                <!--/.timeline-->
-                            </div>
-                            <!--/.col-->
-                        </div>
-                    </div>
-                    <!--/.single-timeline-box-->
-
+    <!-- award year select start-->
+            <div class="awardYearSelect">
+                    <table>
+                    <tr>
+                        <td class="awardYear" id="awardYear1" onclick="doAwardYear1Display();" onmouseover="mAwardYear1Over()"
+                        onmouseout="mAwardYear1Out()">
+                            <span class="awardYearSelect1">
+                                <span class="aYear">2019-2015</span>
+                            </span>
+                        </td>
+                        <td class="awardYear" id="awardYear2" onclick="doAwardYear2Display();" onmouseover="mAwardYear2Over()"
+                        onmouseout="mAwardYear2Out()">
+                            <span class="awardYearSelect2">
+                                <span class="aYear">2014-2009</span>
+                            </span>
+                        </td>
+                        <td class="awardYear" id="awardYear3" onclick="doAwardYear3Display();" onmouseover="mAwardYear3Over()"
+                        onmouseout="mAwardYear3Out()">
+                            <span class="awardYearSelect3">
+                                <span class="aYear">2008-1987</span>
+                            </span>
+                        </td>
+                    </tr>
+                    </table>
                 </div>
-                <!--.main-timeline-->
-            </div>
-            <!--.experience-content-->
+    <!-- award year select end -->
+
+        <div class="container" id="awardContainer_1">
+        <div class="yearTimeLine"> 
+            <h3>2019년 - 2015년</h3>
+            <i class="far fa-circle yearCircle fa-xs"></i>
+          
+          <ul>
+            <li>
+                <span class="awardImg">
+                    <img class="awardLogo" src="/images/award/sampleAwardLogo.png" alt="수상내역샘플로고">
+                  </span>
+                  <span class="date">2019.11.13</span>
+                  <span class="awardTitle">
+                    문화체육 관광부
+                    <br>
+                    xxxx우수상 수상
+                  </span>
+            </li>
+            <li>
+                <span class="awardImg">
+                    <img class="awardLogo" src="/images/award/sampleAwardLogo.png" alt="수상내역샘플로고">
+                  </span>
+                  <span class="date">2019.11.13</span>
+                  <span class="awardTitle">
+                    문화체육 관광부
+                    <br>
+                    xxxx우수상 수상
+                  </span>
+            </li>
+            <li>
+                <span class="awardImg">
+                    <img class="awardLogo" src="/images/award/sampleAwardLogo.png" alt="수상내역샘플로고">
+                  </span>
+                  <span class="date">2019.11.13</span>
+                  <span class="awardTitle">
+                    문화체육 관광부
+                    <br>
+                    xxxx우수상 수상
+                  </span>
+            </li>
+            <li>
+                <span class="awardImg">
+                    <img class="awardLogo" src="/images/award/sampleAwardLogo.png" alt="수상내역샘플로고">
+                  </span>
+                  <span class="date">2019.11.13</span>
+                  <span class="awardTitle">
+                    문화체육 관광부
+                    <br>
+                    xxxx우수상 수상
+                  </span>
+            </li>
+            <li>
+                <span class="awardImg">
+                    <img class="awardLogo" src="/images/award/sampleAwardLogo.png" alt="수상내역샘플로고">
+                  </span>
+                  <span class="date">2019.11.13</span>
+                  <span class="awardTitle">
+                    문화체육 관광부
+                    <br>
+                    xxxx우수상 수상
+                  </span>
+            </li>
+            <li>
+                <span class="awardImg">
+                    <img class="awardLogo" src="/images/award/sampleAwardLogo.png" alt="수상내역샘플로고">
+                  </span>
+                  <span class="date">2019.11.13</span>
+                  <span class="awardTitle">
+                    문화체육 관광부
+                    <br>
+                    xxxx우수상 수상
+                  </span>
+            </li>    
+            </ul>
+          
+          
         </div>
+        </div>
+        <div class="container" id="awardContainer_2">
+            <div class="yearTimeLine"> 
+                <h3>2015년 - 2009년</h3>
+                <i class="far fa-circle yearCircle fa-xs"></i>
+              
+              <ul>
+                <li>
+                    <span class="awardImg">
+                        <img class="awardLogo" src="/images/award/sampleAwardLogo.png" alt="수상내역샘플로고">
+                      </span>
+                      <span class="date">2019.11.13</span>
+                      <span class="awardTitle">
+                        문화체육 관광부
+                        <br>
+                        xxxx우수상 수상
+                      </span>
+                </li>
+                <li>
+                    <span class="awardImg">
+                        <img class="awardLogo" src="/images/award/sampleAwardLogo.png" alt="수상내역샘플로고">
+                      </span>
+                      <span class="date">2019.11.13</span>
+                      <span class="awardTitle">
+                        문화체육 관광부
+                        <br>
+                        xxxx우수상 수상
+                      </span>
+                </li>
+                <li>
+                    <span class="awardImg">
+                        <img class="awardLogo" src="/images/award/sampleAwardLogo.png" alt="수상내역샘플로고">
+                      </span>
+                      <span class="date">2019.11.13</span>
+                      <span class="awardTitle">
+                        문화체육 관광부
+                        <br>
+                        xxxx우수상 수상
+                      </span>
+                </li>
+                <li>
+                    <span class="awardImg">
+                        <img class="awardLogo" src="/images/award/sampleAwardLogo.png" alt="수상내역샘플로고">
+                      </span>
+                      <span class="date">2019.11.13</span>
+                      <span class="awardTitle">
+                        문화체육 관광부
+                        <br>
+                        xxxx우수상 수상
+                      </span>
+                </li>
+                <li>
+                    <span class="awardImg">
+                        <img class="awardLogo" src="/images/award/sampleAwardLogo.png" alt="수상내역샘플로고">
+                      </span>
+                      <span class="date">2019.11.13</span>
+                      <span class="awardTitle">
+                        문화체육 관광부
+                        <br>
+                        xxxx우수상 수상
+                      </span>
+                </li>
+                <li>
+                    <span class="awardImg">
+                        <img class="awardLogo" src="/images/award/sampleAwardLogo.png" alt="수상내역샘플로고">
+                      </span>
+                      <span class="date">2019.11.13</span>
+                      <span class="awardTitle">
+                        문화체육 관광부
+                        <br>
+                        xxxx우수상 수상
+                      </span>
+                </li>    
+                </ul>
+              
+              
+            </div>
+        </div>
+        <div class="container" id="awardContainer_3">
+                <div class="yearTimeLine"> 
+                    <h3>2009년 - 1987년</h3>
+                    <i class="far fa-circle yearCircle fa-xs"></i>
+                  
+                  <ul>
+                    <li>
+                        <span class="awardImg">
+                            <img class="awardLogo" src="/images/award/sampleAwardLogo.png" alt="수상내역샘플로고">
+                          </span>
+                          <span class="date">2019.11.13</span>
+                          <span class="awardTitle">
+                            문화체육 관광부
+                            <br>
+                            xxxx우수상 수상
+                          </span>
+                    </li>
+                    <li>
+                        <span class="awardImg">
+                            <img class="awardLogo" src="/images/award/sampleAwardLogo.png" alt="수상내역샘플로고">
+                          </span>
+                          <span class="date">2019.11.13</span>
+                          <span class="awardTitle">
+                            문화체육 관광부
+                            <br>
+                            xxxx우수상 수상
+                          </span>
+                    </li>
+                    <li>
+                        <span class="awardImg">
+                            <img class="awardLogo" src="/images/award/sampleAwardLogo.png" alt="수상내역샘플로고">
+                          </span>
+                          <span class="date">2019.11.13</span>
+                          <span class="awardTitle">
+                            문화체육 관광부
+                            <br>
+                            xxxx우수상 수상
+                          </span>
+                    </li>
+                    <li>
+                        <span class="awardImg">
+                            <img class="awardLogo" src="/images/award/sampleAwardLogo.png" alt="수상내역샘플로고">
+                          </span>
+                          <span class="date">2019.11.13</span>
+                          <span class="awardTitle">
+                            문화체육 관광부
+                            <br>
+                            xxxx우수상 수상
+                          </span>
+                    </li>
+                    <li>
+                        <span class="awardImg">
+                            <img class="awardLogo" src="/images/award/sampleAwardLogo.png" alt="수상내역샘플로고">
+                          </span>
+                          <span class="date">2019.11.13</span>
+                          <span class="awardTitle">
+                            문화체육 관광부
+                            <br>
+                            xxxx우수상 수상
+                          </span>
+                    </li>
+                    <li>
+                        <span class="awardImg">
+                            <img class="awardLogo" src="/images/award/sampleAwardLogo.png" alt="수상내역샘플로고">
+                          </span>
+                          <span class="date">2019.11.13</span>
+                          <span class="awardTitle">
+                            문화체육 관광부
+                            <br>
+                            xxxx우수상 수상
+                          </span>
+                    </li>    
+                    </ul>
+                  
+                  
+                </div>
+        </div>
+
     </div>
     <!--award part end-->
 
