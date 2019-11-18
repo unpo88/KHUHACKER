@@ -926,6 +926,34 @@ a:hover{
 
 }
 
+#awardContainer_2 .yearCircle{
+    position: relative;
+    right:158px;
+    top: 35px;
+    color: #5e8cb4;
+    z-index: 1; 
+}
+#awardContainer_2 .yearTimeLine{
+    position: relative;
+}
+#awardContainer_2 .yearTimeLine:before{
+    content: "";
+    width: 0.4px;
+    height: 85%;
+    background: #939699;
+    position: absolute;
+    top: 48.3%;
+    left: 7.3%;
+    transform: translate(-50%,-50%);
+    z-index: -1;
+
+}
+
+.awardLogo {
+    width:165px;
+    height: 165px;
+}
+
 #awardContainer h3{
     position: relative;
     float: left;
